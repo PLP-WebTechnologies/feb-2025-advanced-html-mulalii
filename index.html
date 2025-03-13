@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .image {width: 600px; height: 265px;}
+        .container {display: flex; justify-content: space-between; align-items: center;}
+        .item {flex: 1; margin: 10px; padding: 20px; background-color: #f0f0f0;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class = logo>&copf;</h1><br>
+        <h1>Welcome to my website</h1>
+        <nav class="navbar">
+            <ul>
+                <li class="bar"><a href="index.html">Home</a></li>
+                <li class="bar"><a href="#about">About</a></li>
+                <li class="bar"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="about">Ordered list with roman numerals</h2>
+        <ol type="I" class="container">
+            <li class="item">Johndoe</li>
+            <li class="item">21 neverland ave</li>
+            <li class="item">Johndoe@gmail.com</li>
+            <li class="item">0738283287</li>
+        </ol>
+
+        <section class="image">
+            <img src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg" class="image" alt="Code gemeral image">
+        </section>
+
+        <section class="form-group">
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+                
+            </form>
+
+            <form>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="other"><br><br
+
+                <label for="comments">Comments</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Thoughts on website"></textarea>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Website</p>
+        <a href="mailto:contact@mywebsite.com" target="_blank">Johndoe@gmail.com</a>
+        <p>Powered by HTML, CSS, and JavaScript</p>
+    </footer>
+</body>
+</html>
